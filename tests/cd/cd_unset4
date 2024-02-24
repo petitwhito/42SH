@@ -1,0 +1,4 @@
+unset OLDPWD;
+cd path;
+echo $PWD
+echo $OLDPWD

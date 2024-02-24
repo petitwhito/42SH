@@ -1,0 +1,9 @@
+if true; then
+    if false; then
+        echo no print
+    else
+        echo cond1
+        echo cond2
+    fi
+    echo congrats
+fi

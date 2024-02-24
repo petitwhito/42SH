@@ -1,0 +1,14 @@
+if false; then
+    if false; then
+        echo wut?
+    else
+        echo wut?
+    fi
+elif true; then
+    if true; then
+        echo cond1
+    fi
+    echo congrats
+else
+    echo wut?
+fi

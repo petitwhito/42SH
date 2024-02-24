@@ -1,0 +1,9 @@
+mkdir sym
+ln -s sym symlink
+ln -s .. sym/symlink2
+
+cd symlink
+cd symlink2
+cd symlink
+
+echo $PWD

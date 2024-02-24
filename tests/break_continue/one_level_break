@@ -1,0 +1,12 @@
+a=true
+b=true
+while $a; do
+    echo first_level
+    while $b; do
+        b=false
+        break 1
+        echo this should not print
+    done
+    a=false
+    echo this should print
+done

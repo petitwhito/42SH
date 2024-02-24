@@ -1,0 +1,3 @@
+a="'a'"`echo hello`
+echo $a
+echo `a`hello

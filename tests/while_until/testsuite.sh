@@ -1,0 +1,10 @@
+run_test bad_while1
+run_test bad_while2
+run_test_stdin bad_while3
+run_test false_while
+run_test bad_until1
+run_test bad_until2
+run_test_stdin bad_until3
+run_test true_until
+run_test until_with_op
+run_test_stdin while_with_op

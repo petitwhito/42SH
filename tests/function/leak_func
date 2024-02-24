@@ -1,0 +1,11 @@
+foo () {
+    echo 3;
+    foo ()
+    {
+        echo 5;
+        unset -f foo;
+    }
+};
+foo;
+foo;
+foo

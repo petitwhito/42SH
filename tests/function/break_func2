@@ -1,0 +1,25 @@
+foo () {
+    echo entered foo starting new while
+    while true; do
+        while true; do
+            break 20
+        done
+        echo nop
+    done
+    echo break should not do anything now
+    echo foo done
+}
+a=true
+while $a; do
+    while $a; do
+        foo
+        break
+        a=false
+        echo nope
+    done
+    echo yep
+    break
+    a=false
+    echo nope
+done
+echo yes!

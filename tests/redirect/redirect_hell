@@ -1,0 +1,4 @@
+> file1.txt echo hello everyone
+wc < file1.txt >> file1.txt
+echo stdout should be reset here
+ls nofile > file2.txt 2>&1

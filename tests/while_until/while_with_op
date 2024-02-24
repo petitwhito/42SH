@@ -1,0 +1,1 @@
+a=true; while $a; do a=false && echo a; done

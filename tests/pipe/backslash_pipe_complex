@@ -1,0 +1,5 @@
+echo a | echo b | true | echo c |
+
+echo -ne "yes\n\t" &&
+
+false || echo 'wow';

@@ -1,0 +1,8 @@
+(
+fun()
+{
+    (echo a;);
+};
+fun;
+echo a;
+);

@@ -1,0 +1,6 @@
+for i in false false true false false; do
+    echo $i
+    if $i; then
+        break
+    fi
+done

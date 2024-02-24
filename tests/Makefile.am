@@ -1,0 +1,2 @@
+check-local:
+	./testsuite.sh

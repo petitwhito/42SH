@@ -1,0 +1,4 @@
+foo() { echo a; bar() { echo b; } ; }
+foo() { echo foo }
+foo
+bar

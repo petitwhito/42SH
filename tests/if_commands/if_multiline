@@ -1,0 +1,12 @@
+if true;
+false;
+true;
+false;
+true;
+false;
+true;
+false;
+true;
+then
+echo Can finally respect 80 cols...
+fi

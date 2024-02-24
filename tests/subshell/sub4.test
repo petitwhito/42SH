@@ -1,0 +1,1 @@
+my_var="testing"; ( echo "this is a $my_var subshell" )

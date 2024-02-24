@@ -1,0 +1,7 @@
+a=true
+while $a; do
+    break
+    a=false
+    echo this should not echo
+done
+echo done

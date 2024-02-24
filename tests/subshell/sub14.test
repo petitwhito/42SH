@@ -1,0 +1,1 @@
+(result=$(echo "Child Process"); echo "Result in Subshell: $result")

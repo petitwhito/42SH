@@ -1,0 +1,7 @@
+if true; then
+    echo Never
+    echo Gonna
+    echo Let
+    echo You
+    echo Down
+fi

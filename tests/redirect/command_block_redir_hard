@@ -1,0 +1,1 @@
+{ echo command block 1; echo command block 2; { echo what > file3.txt; { echo the; ls | wc; } ; echo fuck > file4.txt; } > file5.txt; } > file2.txt;

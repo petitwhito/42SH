@@ -1,0 +1,2 @@
+run_test simple_dot
+run_test_stdin schizo_1

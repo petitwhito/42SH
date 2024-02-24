@@ -1,0 +1,14 @@
+run_test simple_break
+run_test simple_continue
+run_test two_levels_break
+run_test one_level_break
+run_test_stdin mix
+run_test until_break
+run_test while_hell
+run_test for_break
+run_test for_continue
+run_test uncommon_continue
+run_test_stdin uncommon_continue1
+run_test uncommon_break
+run_test uncommon_break1
+

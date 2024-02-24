@@ -1,0 +1,1 @@
+true || echo foo && echo bar

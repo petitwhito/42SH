@@ -1,0 +1,6 @@
+cd ../; env -i pwd
+cd ..; env -i pwd
+cd /; env -i pwd
+cd /home; env -i pwd
+cd /tmp; env -i pwd
+cd .; env -i pwd

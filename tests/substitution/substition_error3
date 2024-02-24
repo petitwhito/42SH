@@ -1,0 +1,3 @@
+outer_var="Outer"
+inner_var="$(echo "Inner: $(echo "Deep: $outer_var")"
+echo "Recursive Substitution: $inner_var"

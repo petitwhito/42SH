@@ -1,0 +1,3 @@
+echo a
+cd nope
+echo b

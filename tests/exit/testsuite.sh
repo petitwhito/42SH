@@ -1,0 +1,10 @@
+run_test empty_exit
+run_test_stdin empty_exit1
+run_test error_exit1
+run_test error_exit2
+run_test exit_0
+run_test exit_1
+run_test_stdin exit_127
+run_test middle_exit
+run_test middle_exit1
+run_test multiple_exit

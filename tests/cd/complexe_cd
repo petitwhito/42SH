@@ -1,0 +1,8 @@
+cd ..;
+cd cd;
+cd .
+echo $PWD;
+echo $OLDPWD;
+cd path;
+echo $PWD;
+cd -

@@ -1,0 +1,13 @@
+run_test backslash_pipe
+run_test exits1_pipe
+run_test neg_pipe
+run_test pipe_error2
+run_test backslash_pipe_complex
+run_test_stdin multiple_pipes
+run_test neg_pipes_complex
+run_test pipe_error3
+run_test weird_not_pipe
+run_test exits0_pipe
+run_test_stdin neg_multiple_pipes
+run_test pipe_error1
+run_test simple_pipe

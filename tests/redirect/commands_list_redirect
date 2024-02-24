@@ -1,0 +1,1 @@
+echo je > file1.txt; echo suis un; echo redirect > file2.txt

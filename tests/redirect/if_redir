@@ -1,0 +1,3 @@
+if > file2 echo dans un if; 1>file3.txt echo lol > mdr; then
+    echo > file4 fin du if;
+fi > file5.txt

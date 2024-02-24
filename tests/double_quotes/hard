@@ -1,0 +1,11 @@
+var=12
+echo " '' '' '' \\\\\\\
+caca"
+echo '\\'
+echo '\'
+echo "adw wadwa wDwadaw $var\
+'$var'\
+"
+
+echo "\"'hello guys && $var=34 \' ' \" \" ahah \:\) \\\\\\\\\\\
+so fun'''''wow \" \\\so insane\\\\\\\" "

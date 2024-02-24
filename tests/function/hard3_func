@@ -1,0 +1,13 @@
+foo()
+{
+bar()
+    {
+        echo a
+    }
+    bar()
+    {
+        echo b
+    }
+}
+foo
+bar

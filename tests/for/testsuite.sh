@@ -1,0 +1,12 @@
+run_test for_error2
+run_test for_error4
+run_test simple_for1
+run_test_stdin simple_for_var
+run_test for_error1
+run_test for_error3
+run_test simple_for2
+run_test weird_for
+run_test_stdin for_error5
+run_test normal_for
+run_test_stdin for_noe_stdin
+run_test for_noe

@@ -1,0 +1,2 @@
+mixed_result=$(echo "Using \$(dollar-parentheses) and \`backticks\`")
+echo "Mixed Substitution: $mixed_result"

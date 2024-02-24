@@ -1,0 +1,4 @@
+if false; true; false; true; echo 'first part'; then
+    echo 'second part'
+    echo third part
+fi

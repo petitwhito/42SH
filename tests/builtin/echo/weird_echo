@@ -1,0 +1,1 @@
+echo "if false; true; then echo a fi"

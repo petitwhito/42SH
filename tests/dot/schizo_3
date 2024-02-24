@@ -1,0 +1,4 @@
+echo "hello from schizo_3"
+echo "i dislike that var=$var so i unset it"
+unset var
+echo "c'est ciao !"

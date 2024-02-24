@@ -1,0 +1,1 @@
+echo this is the input file text > input.txt; echo 1<&1 bonjour

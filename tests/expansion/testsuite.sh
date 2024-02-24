@@ -1,0 +1,38 @@
+run_test_stdin double_variable
+run_test_stdin error3
+run_test_stdin multiple_vars1
+run_test_stdin simple_variable
+run_test var_134
+run_test_stdin var_dollar
+run_test_stdin double_variable1
+run_test_stdin error4
+run_test_stdin no_var
+run_test_stdin simple_variable1
+run_test var_3
+run_test_stdin var_PWD
+run_test_stdin error1
+run_test_stdin error5
+run_test no_var1
+run_test_stdin simple_variable_brackets
+run_test var_3_1
+run_test weird_var
+run_test error2
+run_test multiple_vars
+#run_test shell_pid
+run_test var_3_2
+run_test weird_var_echo
+run_test for_dollar_quotes arg1 arg2 arg3
+run_test for_dollar_noquotes arg1 arg2 arg3
+run_test for_star_quotes arg1 arg2 arg3
+#run_test for_star_noquotes arg1 arg2 arg3
+run_test weird_var1
+run_test var_sharp
+run_test var_sharp_empty
+run_test var_sharp_many
+run_test quote_var_1
+run_test_stdin quote_var_2
+run_test nested_dollar_cmd
+run_test nested_backquotes_cmd
+run_test fake_nested_cmd
+run_test_stdin simple_for_substitution
+run_test simple_for_substitution_nowc

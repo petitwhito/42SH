@@ -1,0 +1,2 @@
+! echo a | echo b | ls | true || ! true | false &&
+echo -nEEeEe "'go'o'd'";

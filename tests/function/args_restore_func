@@ -1,0 +1,7 @@
+echo $@
+foo ()
+{
+    echo $@
+}
+foo func1 func2 func3 func4
+echo $@

@@ -1,0 +1,1 @@
+a=false; until $a; do a=true || echo a; done

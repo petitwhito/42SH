@@ -1,0 +1,3 @@
+echo a
+exit 1
+echo b

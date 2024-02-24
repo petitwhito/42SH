@@ -1,0 +1,7 @@
+a=false
+until $a; do
+    break
+    a=true
+    echo this should not echo
+done
+echo done

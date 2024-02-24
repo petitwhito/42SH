@@ -1,0 +1,12 @@
+foo () {
+    echo entered foo
+    echo break should not do anything now
+    break 10
+    echo foo done
+}
+a=true
+while $a; do
+    foo
+    a=false
+    echo break did not happen in while
+done

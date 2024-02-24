@@ -1,0 +1,1 @@
+echo this is input file > input.txt; echo cest un enfer 1 > 1 0 < input.txt 2>2 3<>3 0<&0 1>&1;

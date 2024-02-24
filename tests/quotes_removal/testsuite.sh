@@ -1,0 +1,4 @@
+run_test hell_quotes
+run_test remove_quotes1
+run_test remove_quotes2
+run_test remove_quotes3

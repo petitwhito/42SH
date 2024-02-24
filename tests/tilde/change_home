@@ -1,0 +1,3 @@
+/nix/store/6bbn7awaizxlhqsw45nr64k2igybmb6k-system-path/bin/echo ~root
+echo ~
+echo ~root

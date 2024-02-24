@@ -1,0 +1,5 @@
+echo "Outer double quotes with inner \`backticks\`, 'single quotes', and \\escaped characters inside. Escaped newline at the end of this line: \
+Continuing on the next line. A mix of \"double\" and 'single' quotes in this line. Multiple escaped characters: \$\&\#\@. A single \
+quote inside double quotes: 'This is tricky'. Backslashes and escaped double quotes: \\\"This is inside escaped double quotes\\\".\
+More nesting: \"Inside double quotes, 'then inside single quotes'\", then back to double quotes. Nested triple quotes: \"This is '\
+getting' more \\\"complex\\\"\". Escaped single quotes and double quotes: \\\"This is tricky\\\" and \\'this too\\'"

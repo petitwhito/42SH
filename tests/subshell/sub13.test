@@ -1,0 +1,1 @@
+(for i in 1 2 3 4 5; do (echo "Inside Subshell: $i"); done; echo "Outside Subshell: $i")

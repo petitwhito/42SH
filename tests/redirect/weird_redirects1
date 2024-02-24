@@ -1,0 +1,1 @@
+if echo lol > file.txt; then cat < Makefile.am | wc > res.txt; fi > ifres.txt; echo what the fuck is than

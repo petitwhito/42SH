@@ -1,0 +1,13 @@
+run_test bad_quote_keywords1
+run_test empty
+run_test quote_command
+run_test quote_reserved_word3
+run_test spaces_in_arg
+run_test bad_quote_keywords2
+run_test empty_quotes
+run_test quote_reserved_word1
+run_test simple_quote
+run_test bad_unterminated_quote
+run_test multiple_quotes
+run_test quote_reserved_word2
+run_test spaces_as_arg

@@ -1,0 +1,1 @@
+for i in 1 2 3 4 5; do echo $i >> file.txt >> file2.txt >> file3.txt | wc >> file4.txt; done > file5.txt; echo mdr what

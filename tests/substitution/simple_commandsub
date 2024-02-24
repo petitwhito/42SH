@@ -1,0 +1,2 @@
+result=$(echo "Hello, World!")
+echo "Command Substitution: $result"

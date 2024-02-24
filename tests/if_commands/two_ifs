@@ -1,0 +1,11 @@
+if true; then
+    echo first
+else
+    echo no good
+fi
+
+if false; then
+    echo no good
+else
+    echo second
+fi

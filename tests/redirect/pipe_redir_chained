@@ -1,0 +1,1 @@
+if echo un > file1.txt; then echo deux > file2.txt | echo trois > file3.txt | wc > file4.txt | echo quatre > file5.txt; fi > file6.txt; echo fin

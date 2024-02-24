@@ -1,0 +1,7 @@
+(a=true;
+while $a; do
+    (until $a; do echo b; done);
+    a=false;
+    echo $a
+done);
+echo hello

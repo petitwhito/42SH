@@ -1,0 +1,17 @@
+run_test complex_commandsub
+run_test nested_sub
+run_test simple_commandsub
+run_test substition_error2
+run_test_stdin complexe_backticks
+run_test simple_backticks
+run_test simple_commandsub1
+run_test substition_error3
+run_test var_commandsub
+run_test_stdin mix
+run_test simple_backticks1
+run_test substition_error1
+run_test substition_error4
+run_test escape_commandbackticks
+run_test_stdin escape_commandsub
+run_test escape_commandsub1
+run_test complexe_backticks1

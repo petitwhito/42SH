@@ -1,0 +1,1 @@
+ls thisfiledoesntexist 2> file1.txt

@@ -1,0 +1,1 @@
+echo a || false && echo boo && echo foo || true;

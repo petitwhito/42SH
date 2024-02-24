@@ -1,0 +1,4 @@
+bar() { echo bar; }
+foofbar() { echo foobar; }
+
+foo() if true; then bar; else foobar;fi;

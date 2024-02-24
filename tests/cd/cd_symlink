@@ -1,0 +1,8 @@
+ln -s /tmp/test_dir /tmp/link
+cd /tmp/link
+# the shell knows the current directory is also known as /tmp/link
+echo "$PWD"
+# pwd does not, as it is an external command. env -i ensures the PWD
+# environment variable is not passed down, and avoids executing a potential
+# builtin implementation of pwd
+env -i pwd

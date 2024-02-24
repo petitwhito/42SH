@@ -1,0 +1,2 @@
+echo Bonjour je suis un fichier en 8 mots > file1.txt;
+wc < file1.txt

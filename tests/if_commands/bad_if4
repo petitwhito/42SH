@@ -1,0 +1,4 @@
+if false; true; then then
+    echo a
+    echo b; echo c;
+fi

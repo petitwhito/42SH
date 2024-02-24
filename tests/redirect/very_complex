@@ -1,0 +1,11 @@
+if > file2.txt echo dans un if; 1>file3.txt echo lol > mdr.txt; then
+    if ! false && echo a; then
+        echo > file4.txt fin du if;
+    fi
+fi > file5.txt
+while ! true; do
+    false &&
+
+
+    true
+done;

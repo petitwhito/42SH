@@ -1,0 +1,13 @@
+run_test simple_case a
+run_test empty_case
+run_test medium_case
+run_test multiple_arg_case
+run_test no_match_case
+run_test_stdin star_case
+run_test bracket_case
+run_test triple_semi_case
+run_test error_case
+run_test error2_case
+run_test_stdin error3_case
+run_test error4_case
+run_test question_case

@@ -1,0 +1,7 @@
+echo "hello from schizo_2 !"
+echo "i know that var=$var"
+echo "now i say var=12"
+var=12
+. ./schizo_3
+echo "what the fuck did you do to var schizo_3 ???"
+echo "why is var=$var ???"

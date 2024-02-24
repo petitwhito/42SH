@@ -1,0 +1,2 @@
+complex_result=$(echo "First $(echo "Nested") Second")
+echo "Complex Substitution: $complex_result"

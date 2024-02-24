@@ -1,0 +1,3 @@
+echo a;
+cd path path;
+echo b;

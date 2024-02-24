@@ -1,0 +1,7 @@
+run_test_stdin simple_cmd_block1
+run_test simple_cmd_block2
+run_test simple_cmd_block3
+run_test_stdin simple_cmd_block4
+run_test error_cmd_block
+run_test cmd_block_subshell
+run_test cmd_block_subshell_error

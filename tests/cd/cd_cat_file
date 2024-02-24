@@ -1,0 +1,3 @@
+cd ..
+cd builtin
+cat testsuite.sh

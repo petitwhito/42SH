@@ -1,0 +1,3 @@
+echo bonjour > file1.txt;
+{ echo command block 1; echo command block 2; ls; } > file2.txt;
+echo done

@@ -1,0 +1,4 @@
+export MY_VAR="some value"
+var_name="MY_VAR"
+unset -v $var_name
+echo $var_name

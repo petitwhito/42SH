@@ -1,0 +1,24 @@
+foo () {
+    echo first foo level
+    foo () {
+        unset -f foo
+        echo nope;
+        unset -f foo
+    }
+    foo
+    foo () {
+        echo 'what ?'
+    }
+    bar () {
+        unset -f foo
+        foo () {
+            echo wtf
+        }
+        foo
+        unset -f foo
+    }
+}
+
+foo
+bar
+foo

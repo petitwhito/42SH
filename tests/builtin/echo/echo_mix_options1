@@ -1,0 +1,1 @@
+echo -E -n -e 42\\tsh

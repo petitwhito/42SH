@@ -1,0 +1,3 @@
+echo a;
+break 1;
+echo b;

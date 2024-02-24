@@ -1,0 +1,16 @@
+for i in a b c
+do
+    echo 21
+    for j in d e f
+    do
+        echo 42
+        for k in g h i
+        do
+            echo 37
+        done
+    done
+    for j in ed ed ed
+    do
+        echo $j
+    done
+done

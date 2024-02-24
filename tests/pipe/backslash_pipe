@@ -1,0 +1,3 @@
+echo a | echo b | true | echo c |
+
+echo yes

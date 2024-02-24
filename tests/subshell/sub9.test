@@ -1,0 +1,1 @@
+(var1=1;((var2=2; echo $var2);(var3=3; echo $var3; echo $var2);echo $var1;););

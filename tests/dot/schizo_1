@@ -1,0 +1,5 @@
+echo "hello from schizo_1 !"
+echo "i say that var=42 :3"
+var=42
+. ./schizo_2
+echo "hey schizo_1 is back! wait now var=$var ???"

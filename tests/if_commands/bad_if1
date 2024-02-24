@@ -1,0 +1,4 @@
+if true; then
+    echo "Error: Missing 'fi'"
+else
+    echo "This should execute"

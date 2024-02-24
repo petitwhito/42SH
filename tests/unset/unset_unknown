@@ -1,0 +1,3 @@
+b=2
+unset a
+echo $b

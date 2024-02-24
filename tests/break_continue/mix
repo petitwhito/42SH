@@ -1,0 +1,16 @@
+a=true
+b=false
+c=false
+while $a; do
+    a=false
+    echo a is false
+    while $c; do
+        echo fake loop
+        break 1
+    done
+    if ! $c; then
+        c=true
+    else
+        break
+    fi
+done

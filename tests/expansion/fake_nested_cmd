@@ -1,0 +1,1 @@
+IFS=; echo $(a=23; echo '$('echo $a')'; echo \$\(echo lol\); echo $(echo $(echo bonjour '$(echo je suis un fake)')) )

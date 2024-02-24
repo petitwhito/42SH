@@ -1,0 +1,2 @@
+my_var="Hello"
+echo "Variable goes $($my_var)"

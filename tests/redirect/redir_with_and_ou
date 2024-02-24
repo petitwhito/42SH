@@ -1,0 +1,38 @@
+echo bonjour > file1.txt > file2.txt > file3.txt &&
+if true; then
+    if false; then
+        echo no print
+    else
+        echo -neEeEe "'cond1'"
+        echo 'cond2'
+
+
+    fi
+    echo congrats
+fi &&
+
+
+if true; then
+    if false; then
+        echo no print
+    else
+        echo -neEeEe "'cond1'"
+        echo 'cond2'
+
+
+    fi
+    echo congrats
+fi &&
+
+
+if true; then
+    if false; then
+        echo no print
+    else
+        echo -neEeEe "'cond1'"
+        echo 'cond2'
+
+
+    fi
+    echo congrats
+fi && false && echo a || echo bonjour > file1.txt > file2.txt > file3.txt;

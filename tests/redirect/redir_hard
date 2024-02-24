@@ -1,0 +1,15 @@
+if true; then
+    for i in 1 2 3 4 5; do
+        echo hello everyone > output.txt; wc < output.txt
+        echo this is a pipz tzst | tr z e
+        echo $i >> for.txt
+        for j in 1 2 3; do
+            echo $j >> for2.txt
+            echo i am a subfor text ! | cat -e
+            for k in quoi? feur xD; do
+                echo $k > subfor2.txt
+                done
+        done > subfor.txt
+    done
+fi > main.txt
+echo done !

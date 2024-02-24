@@ -1,0 +1,1 @@
+echo hello everyone <> file1.txt; echo this should append to the file <> file1.txt; <> file2.txt echo coucou | wc <> file2.txt

@@ -1,0 +1,3 @@
+(echo hey; ls) > out
+cat out
+rm out

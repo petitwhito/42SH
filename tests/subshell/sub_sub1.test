@@ -1,0 +1,16 @@
+a=hey
+(
+    echo $a
+    a=hoy
+    (
+        echo $a
+        a=houy
+        (
+            a=ls
+            $a
+        )
+        echo $a
+    )
+    echo $a
+)
+echo $

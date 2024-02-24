@@ -1,0 +1,9 @@
+for i in 4;
+
+
+do echo lol;
+
+
+
+done; echo $1
+

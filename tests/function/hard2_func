@@ -1,0 +1,8 @@
+foo() { foo() { echo a; bar() { echo bar; foo() { bar() { echo bar 2; }; echo foo2; } } > bar.txt; } }
+foo
+foo
+bar
+foo
+bar
+foo
+bar

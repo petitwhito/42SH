@@ -1,0 +1,4 @@
+unset OLDPWD;
+cd -;
+echo $PWD
+echo $OLDPWD

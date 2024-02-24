@@ -1,0 +1,5 @@
+{ echo lol; ls cacaboudin; echo mdr; } 2> file1.txt 1>&2
+echo mdr ca va
+1>&2 <> file2.txt echo yep
+1>&2 <> file2.txt 2>file3.txt echo yep
+2>file2.txt 1>&2 <> file2.txt echo nope

@@ -1,0 +1,22 @@
+foo ()
+{
+    echo $#
+    bar ()
+    {
+        echo $@
+        echo $#
+        foo ()
+        {
+            echo $@
+            echo $#
+        }
+        foo foobar1 foobar2 foobar3 lol
+        echo $*
+    }
+    bar bararg1 bararg2
+    echo $*
+    foo wtf
+}
+foo
+echo $*
+echo $@

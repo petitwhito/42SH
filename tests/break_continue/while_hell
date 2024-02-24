@@ -1,0 +1,22 @@
+while true; do
+    while true; do
+        while true; do
+            while true; do
+                while true; do
+                    while true; do
+                        break 2;
+                        echo no
+                    done
+                    echo no
+                done
+                echo yes
+                break 3;
+            done
+            echo no
+        done
+        echo no
+    done
+    echo yes
+    break;
+done
+echo done

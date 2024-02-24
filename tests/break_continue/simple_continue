@@ -1,0 +1,8 @@
+a=true
+while $a; do
+    echo this should echo
+    a=false
+    continue
+    echo this should not echo
+done
+echo done

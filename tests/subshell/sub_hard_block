@@ -1,0 +1,1 @@
+(i=/; echo -ne "wow$i"; cd $i; ({ echo what > file3.txt; { echo the; ls | wc; } ; echo fuck > file4.txt; }));

@@ -1,0 +1,6 @@
+cd ../; echo $PWD; echo $OLDPWD
+cd ..; echo $PWD; echo $OLDPWD
+cd /; echo $PWD; echo $OLDPWD
+cd /home; echo $PWD; echo $OLDPWD
+cd /tmp; echo $PWD; echo $OLDPWD
+cd .; echo $PWD; echo $OLDPWD

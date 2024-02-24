@@ -1,0 +1,2 @@
+if true; true; false; true; echo 'cond'; then echo 'mixing up'
+fi

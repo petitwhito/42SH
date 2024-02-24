@@ -1,0 +1,6 @@
+run_test_stdin inline_comment
+run_test just_a_comment
+run_test not_first
+run_test quoted
+run_test_stdin shebang
+run_test space_comments

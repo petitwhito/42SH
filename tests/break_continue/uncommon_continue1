@@ -1,0 +1,3 @@
+echo a;
+continue 3;
+echo b;

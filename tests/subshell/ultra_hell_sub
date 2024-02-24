@@ -1,0 +1,16 @@
+bar() {
+    a=6
+    echo foobar
+    unset $a
+}
+
+for i in 1 2 3 4 5 6 7 8 exit; do
+    echo $i;
+    while !(if true; then true; fi); do
+        continue;
+        break;
+    done;
+    cd -;
+    cd /;
+    (i=/; echo -ne "wow$i"; cd $i; ({ echo what > file3.txt; { echo the; ls | wc; } ; echo fuck > file4.txt; }); bar);
+done;
